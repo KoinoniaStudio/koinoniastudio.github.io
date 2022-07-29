@@ -8,6 +8,9 @@ module.exports = {
       xl: '1440px',
     },
     extend: {
+      backgroundImage: {
+        'hero' : 'url("../images/desktop/full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg")'
+      },
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],
         alata: ['Alata'],
