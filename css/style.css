@@ -739,6 +739,11 @@ h5 {
   background-image: url("../../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg");
 }
 
+.bg-heroAbout {
+  background-image: url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg');
+}
+
+
 .bg-cover {
   background-size: cover;
 }
@@ -910,10 +915,18 @@ h5 {
 #hero { background-repeat: no-repeat;
   background-size: cover;
 }
+#heroAbout {
+  background-image: url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg');
+  background-size: cover;
+}
 
 @media (max-width: 576px) {
   #hero {
     background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg');
+    background-position: center;
+  }
+  #heroAbout {
+    background-image: url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg');
     background-position: center;
   }
 }

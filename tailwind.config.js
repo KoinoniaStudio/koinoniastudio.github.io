@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'heroimg' : "url('./images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg')",
+        'heroAbout' : "url('./images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg')"
       },
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],
