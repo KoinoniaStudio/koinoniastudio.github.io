@@ -9,8 +9,14 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'heroimg' : "url('./images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg')",
-        'heroAbout' : "url('./images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg')"
+        'heroimg' : "url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg')",
+        'heroAbout' : "url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg')"
+      },
+      colors: {
+        strongCyan: 'hsl(171, 66%, 44%)',
+        lightBlue: 'hsl(233, 100%, 69%)',
+        darkGrayishBlue: 'hsl(210, 10%, 33%)',
+        grayishBlue: 'hsl(201, 11%, 66%)',
       },
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],

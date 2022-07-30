@@ -564,6 +564,14 @@ h5 {
   left: 0px;
 }
 
+.right-\[50\%\] {
+  right: 50%;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
 .top-48 {
   top: 12rem;
 }
@@ -582,6 +590,11 @@ h5 {
   margin-right: 0.5rem;
 }
 
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .my-32 {
   margin-top: 8rem;
   margin-bottom: 8rem;
@@ -595,6 +608,22 @@ h5 {
   margin-bottom: 8rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -605,14 +634,6 @@ h5 {
 
 .mb-20 {
   margin-bottom: 5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
 }
 
 .block {
@@ -659,6 +680,10 @@ h5 {
   max-width: 32rem;
 }
 
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -687,6 +712,12 @@ h5 {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .space-y-6 > :not([hidden]) ~ :not([hidden]) {
@@ -730,19 +761,23 @@ h5 {
   background-color: rgb(39 39 42 / 0.8);
 }
 
+.bg-pink-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-heroimg {
-  background-image: url("../../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg");
 }
 
 .bg-heroAbout {
   background-image: url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg');
 }
 
+.bg-heroimg {
+  background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg');
+}
 
 .bg-cover {
   background-size: cover;
@@ -754,6 +789,10 @@ h5 {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-12 {
+  padding: 3rem;
 }
 
 .px-6 {
@@ -771,6 +810,11 @@ h5 {
   padding-bottom: 0.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -784,8 +828,8 @@ h5 {
   padding-left: 3rem;
 }
 
-.pr-0 {
-  padding-right: 0px;
+.pr-2 {
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -827,6 +871,10 @@ h5 {
   text-transform: uppercase;
 }
 
+.leading-9 {
+  line-height: 2.25rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -844,6 +892,13 @@ h5 {
 
 .duration-200 {
   transition-duration: 200ms;
+}
+
+.section-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;
+  text-align: center;
 }
 
 .item-container {
@@ -912,21 +967,13 @@ h5 {
   opacity: 0.7;
 }
 
-#hero { background-repeat: no-repeat;
-  background-size: cover;
-}
-#heroAbout {
-  background-image: url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg');
+#hero {
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 576px) {
   #hero {
-    background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg');
-    background-position: center;
-  }
-  #heroAbout {
-    background-image: url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg');
     background-position: center;
   }
 }
@@ -1021,16 +1068,20 @@ h5 {
     margin-right: 0px;
   }
 
+  .md\:mb-60 {
+    margin-bottom: 15rem;
+  }
+
+  .md\:-mt-24 {
+    margin-top: -6rem;
+  }
+
+  .md\:-mt-40 {
+    margin-top: -10rem;
+  }
+
   .md\:ml-10 {
     margin-left: 2.5rem;
-  }
-
-  .md\:mr-3 {
-    margin-right: 0.75rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
   }
 
   .md\:mb-10 {
@@ -1039,6 +1090,14 @@ h5 {
 
   .md\:-mt-8 {
     margin-top: -2rem;
+  }
+
+  .md\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:block {
@@ -1055,6 +1114,10 @@ h5 {
 
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:flex-row {
@@ -1077,6 +1140,12 @@ h5 {
     --tw-space-x-reverse: 0;
     margin-right: calc(2rem * var(--tw-space-x-reverse));
     margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-x-32 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(8rem * var(--tw-space-x-reverse));
+    margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -1111,12 +1180,20 @@ h5 {
     padding-bottom: 5rem;
   }
 
-  .md\:pl-20 {
-    padding-left: 5rem;
+  .md\:pl-16 {
+    padding-left: 4rem;
+  }
+
+  .md\:pr-2 {
+    padding-right: 0.5rem;
   }
 
   .md\:pb-8 {
     padding-bottom: 2rem;
+  }
+
+  .md\:pl-20 {
+    padding-left: 5rem;
   }
 
   .md\:text-left {
