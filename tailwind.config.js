@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'heroimg' : "url('../images/desktop/full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg')",
+        'heroimg' : "url('./images/desktop/full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg')",
       },
       fontFamily: {
         sans: ['Josefin Sans', 'sans-serif'],
