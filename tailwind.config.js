@@ -18,7 +18,8 @@ module.exports = {
         'bliss' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-233.jpg')",
         'vortex' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-256.jpg')",
         'langland' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-264.jpg')",
-        'promise' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-275.jpg')"
+        'promise' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-275.jpg')",
+        'butterfly' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-270.jpg')"
         
       },
       colors: {
