@@ -16,7 +16,8 @@ module.exports = {
         'allproducts' : "url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-185.jpg')",
         'noir' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-203.jpg')",
         'bliss' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-233.jpg')",
-        'vortex' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-258.jpg')"
+        'vortex' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-256.jpg')",
+        'langland' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-264.jpg')"
         
       },
       colors: {
