@@ -624,16 +624,16 @@ h5 {
   margin-bottom: 3rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
 }
 
 .block {
@@ -688,6 +688,10 @@ h5 {
   max-width: 28rem;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -706,6 +710,10 @@ h5 {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
@@ -775,8 +783,20 @@ h5 {
   background-image: url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg');
 }
 
+.bg-allproducts {
+  background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-185.jpg');
+}
+
+.bg-coasters {
+  background-image: url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-212.jpg');
+}
+
 .bg-heroimg {
   background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-80.jpg');
+}
+
+.bg-wallart {
+  background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-97.jpg');
 }
 
 .bg-cover {
@@ -844,9 +864,9 @@ h5 {
   font-family: Josefin Sans, sans-serif;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-lg {
@@ -857,6 +877,11 @@ h5 {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -878,6 +903,11 @@ h5 {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-zinc-900 {
+  --tw-text-opacity: 1;
+  color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -1048,6 +1078,11 @@ h5 {
 .group:hover .group-hover\:border-blue-50 {
   --tw-border-opacity: 1;
   border-color: rgb(239 246 255 / var(--tw-border-opacity));
+}
+
+.group:hover .group-hover\:bg-zinc-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px) {
