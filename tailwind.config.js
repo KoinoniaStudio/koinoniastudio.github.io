@@ -13,7 +13,9 @@ module.exports = {
         'heroAbout' : "url('../images/Aboutme/iNNOVATIONphotography-commercial-photographer-Swansea-297.jpg')",
         'wallart' : "url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-97.jpg')",
         'coasters': "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-212.jpg')",
-        'allproducts' : "url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-185.jpg')"
+        'allproducts' : "url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-185.jpg')",
+        'noir' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-201.jpg')",
+        
       },
       colors: {
         strongCyan: 'hsl(171, 66%, 44%)',
