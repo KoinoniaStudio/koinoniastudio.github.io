@@ -20,7 +20,8 @@ module.exports = {
         'langland' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-264.jpg')",
         'promise' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-275.jpg')",
         'butterfly' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-270.jpg')",
-        'fire' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-249.jpg')"
+        'fire' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-249.jpg')",
+        'deepearth' : "url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-62.jpg')"
         
       },
       colors: {
