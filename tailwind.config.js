@@ -22,7 +22,8 @@ module.exports = {
         'butterfly' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-270.jpg')",
         'fire' : "url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-249.jpg')",
         'deepearth' : "url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-62.jpg')",
-        'frantic' : "url('../images/desktop/Whole/iNNOVATIONphotography-commercial-photographer-Swansea-110.jpg')"
+        'frantic' : "url('../images/desktop/Whole/iNNOVATIONphotography-commercial-photographer-Swansea-110.jpg')",
+        'catharsis' : "url('../images/desktop/Whole/iNNOVATIONphotography-commercial-photographer-Swansea-54.jpg')"
         
       },
       colors: {
