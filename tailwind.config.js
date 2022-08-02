@@ -24,7 +24,8 @@ module.exports = {
         'deepearth' : "url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-62.jpg')",
         'frantic' : "url('../images/desktop/Whole/iNNOVATIONphotography-commercial-photographer-Swansea-110.jpg')",
         'catharsis' : "url('../images/desktop/Whole/iNNOVATIONphotography-commercial-photographer-Swansea-54.jpg')",
-        'collision' : "url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-139.jpg')"
+        'collision' : "url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-139.jpg')",
+        'agate' : "url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-36.jpg')"
         
       },
       colors: {
