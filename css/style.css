@@ -938,6 +938,10 @@ h5 {
   background-image: url('../images/coasters/iNNOVATIONphotography-commercial-photographer-Swansea-249.jpg');
 }
 
+.bg-agate {
+  background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-36.jpg');
+}
+
 .bg-allproducts {
   background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-185.jpg');
 }
@@ -956,6 +960,10 @@ h5 {
 
 .bg-catharsis {
   background-image: url('../images/desktop/Whole/iNNOVATIONphotography-commercial-photographer-Swansea-54.jpg');
+}
+
+.bg-collision {
+  background-image: url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-139.jpg');
 }
 
 .bg-deepearth {
@@ -989,15 +997,10 @@ h5 {
 .bg-wallart {
   background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-97.jpg');
 }
-.bg-collision {
-  background-image: url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-139.jpg');
+
+.bg-agate {
+ background-image: url('../images/desktop/Full/landscape/iNNOVATIONphotography-commercial-photographer-Swansea-36.jpg');
 }
-
-
-.bg-collision {
-  background-image: url('../images/desktop/Angle/iNNOVATIONphotography-commercial-photographer-Swansea-139.jpg');
-}
-
 .bg-cover {
   background-size: cover;
 }
